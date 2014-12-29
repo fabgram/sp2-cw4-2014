@@ -60,6 +60,7 @@ public class Ship {
 	}
 	
 	boolean okToPlaceShipAt(int row, int column, boolean horizontal, Ocean ocean){
+		return true;
 		// TODO
 	}
 	
@@ -68,10 +69,12 @@ public class Ship {
 	}
 	
 	boolean shootAt(int row, int column)  {
+		return false;
 		// TODO
 	}
 	
 	boolean isSunk(){
+		return false;
 		// TODO
 	}
 	
