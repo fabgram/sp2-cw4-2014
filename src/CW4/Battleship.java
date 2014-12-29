@@ -5,5 +5,10 @@ package CW4;
  *
  */
 public class Battleship extends Ship {
+	
+	@Override 
+	String getShipType() {
+		return "battleship";
+	}
 
 }
